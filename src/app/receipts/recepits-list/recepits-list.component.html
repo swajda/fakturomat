@@ -1,0 +1,15 @@
+
+<hr>
+<div class="row">
+  <span>Lista Faktur</span>
+  <div class="col-xs-12">
+    <a
+      href="#"
+      class="list-group-item clearfix"
+      *ngFor="let recepit of recepits">
+        <div class="pull-left">
+          <h4 class="list-group-item-heading">{{ recepit.recepitNumber }}</h4>
+        </div>
+    </a>
+  </div>
+</div>
